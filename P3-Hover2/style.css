@@ -6,6 +6,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: #1d1716;
 }
 main{
     height: 100%;
@@ -20,11 +21,13 @@ main{
 .shape{
     height: 200px;
     width: 200px;
-    border: 1px solid black;
+    border: 2px solid #e94822;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 13px;
+    background-color: white;
+    color: black;
 }

@@ -20,6 +20,14 @@ In this project, I've designed a set of cards that, when hovered over, bring the
 ![Before](/pngs/P2.png)
 ![After Hover](/pngs/P22.png)
 
+## Project 4: Interactive Square Elements
 
-Each of these projects showcases my growing skills in HTML and CSS and my passion for web development. Feel free to explore the code and see how these effects are achieved!
+This project features interactive square elements that respond to mouse events. Each square has unique behaviors on hover and click, demonstrating the use of JavaScript to create dynamic and engaging web interactions.
 
+- Square 1: Displays a random number on hover and reverts to "1" when the mouse leaves.
+- Square 2: Toggles between red and green backgrounds with text color changes on hover.
+- Square 3: Changes to a random background color on hover with contrasting text color.
+- Square 4: On click, changes the background color of all squares and itself to various colors, and displays "Again!!". Reverts to original colors and text on mouse leave.
+
+
+This project showcases the combination of HTML, CSS, and JavaScript to enhance user interaction and visual feedback.

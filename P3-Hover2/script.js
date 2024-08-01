@@ -2,22 +2,24 @@ let s1 = document.getElementById("sq1");
 s1.addEventListener("mouseenter", function(){
     let r = Math.floor(Math.random()*100);
     s1.innerHTML = `<h1>${r}</h1>`;
+    s1.style.backgroundColor = "#ff5722";
 });
 s1.addEventListener("mouseleave", function(){
     s1.innerHTML = "<h1>1</h1>";
+    s1.style.backgroundColor = "white"
 })
 
 let s2 = document.getElementById("sq2");
 let clr = "red";
 s2.addEventListener("mouseenter", function(){
-    if(clr=="red"){
-        s2.style.backgroundColor = "red";
-        clr = "green";
-        s2.style.color = "white";
+    if(clr=="#efd510"){
+        s2.style.backgroundColor = "#efd510";
+        clr = "#1e549f";
+        s2.style.color = "black";
     }
     else{
-        s2.style.backgroundColor = "green";
-        clr = "red";
+        s2.style.backgroundColor = "#1e549f";
+        clr = "#efd510";
         s2.style.color = "white";
     }
 });
@@ -51,7 +53,7 @@ s4.addEventListener("click", function(){
     s1.style.color = "white";
     s2.style.color = "white";
     s3.style.color = "white";
-    s4.style.color = "black";
+    s4.style.color = "#45171d";
     s4.innerHTML = "<h1>Again !!</h1>";
 });
 s4.addEventListener("mouseleave", function(){
