@@ -186,7 +186,7 @@ let arr = [1,2,3,4,5,6,7,8,9];
 // arr = arr.sort(); // ascending
 // console.log(arr);
 
-arr = arr.sort(function(a,b){
-    return b-a;
-});
-console.log(arr);
+// arr = arr.sort(function(a,b){     //decending
+//     return b-a;
+// });
+// console.log(arr);
