@@ -3,37 +3,38 @@
     margin: 0%;
     box-sizing: border-box;
 }
-html,body{
+body,html{
     height: 100%;
     width: 100%;
-    background-color: #1d1716;
 }
-main{
+#main{
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(19, 18, 18);
 }
-#box0{
-    display: flex;
-}
-.shape{
-    height: 200px;
-    width: 200px;
-    border: 2px solid #e94822;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.cards{
+    height: 150px;
+    width: 110px;
+    border: 2px solid #f96d00;
+    border-radius: 12px;
     margin-top: 10px;
     margin-left: 10px;
-    border-radius: 13px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
-    color: black;
 }
-#cursor{
+.cards img{
+    width: 100%;
+}
+/* #cursor{
     height: 20px;
     width: 20px;
     border-radius: 50%;
     background-color: #f96d00;
-}
+} */

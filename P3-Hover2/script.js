@@ -67,3 +67,10 @@ s4.addEventListener("mouseleave", function(){
     s4.style.color = "black";
     s4.innerHTML = "<h1>Click !</h1>"
 })
+
+let main = document.getElementById("main");
+let crsr = document.getElementById("cursor");
+main.addEventListener("click", function(dets){
+    crsr.style.left = dets.x + "px";
+    crsr.style.top = dets.y + "px";
+})
