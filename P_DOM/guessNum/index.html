@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Num</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(43, 22, 22); color:floralwhite;">
+    <nav >
+        <a href="/" aria-current="page">Home</a>
+    </nav>
+    <div class="wrapper">
+        <h1>Instructions !!!!</h1>
+        <p>You have 10 chances to guess the correct number</p>
+        <p>Try guessing the numbe from 1-100</p>
+        <br>
+        <form id="form">
+            <label for="guessField" id="guess"> Enter the number bellow</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="subt" value="Submit" class="submitGuess">
+        </form>
+        <div class="resultsStat">
+            <p>Previous Guess : <span class="guess"></span></p>
+            <p>Gusses remaining : <span class="remaining">10</span></p>
+            <p class="lowORhigh"></p>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
