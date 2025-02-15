@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background Changer</title>
+    <style>
+        body {
+            background-color: rgb(36, 36, 36);
+            color: antiquewhite;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff4800;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning Async in JavaScript !!!</h1>
+    <button class="btn" id="start">Start</button>
+    <button class="btn" id="stop">Stop</button>
+</body>
+    <Script>
+        const random = function(){
+            const hex = '0123456789ABCDEF';
+            let color = '#';
+            for(let i =0; i<6; i++){
+                color += hex[Math.floor(Math.random()*16)];
+            }
+            return color;
+        }
+        let ID;
+        const changeStart = function(){
+            ID = setInterval(change,1000)
+            function change (){
+                document.body.style.backgroundColor = random();
+            }
+        }
+        const changeStop = function(){
+            clearInterval(ID)
+            // ID = null;
+        }
+
+        document.querySelector("#start").addEventListener('click', changeStart)
+        document.getElementById('stop').addEventListener('click', changeStop)
+    </Script>
+</html>
