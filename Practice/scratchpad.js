@@ -269,3 +269,49 @@
 // console.log(total)
 
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//OOP
+
+// function user(name, count, id){
+//     // constructor
+//     this.name = name,
+//     this.count = count,
+//     this.id = id
+
+//     return this
+// }
+
+// const userOne = new user('zaid', 11, 'zaid@gmail.com')
+// const userTwo = new user('ali', 15, 'ali@gmail.com')
+// const userThree = user('Naved', 12, 'naved@gmail.com')
+
+// console.log(userOne)
+// console.log(userTwo)
+// console.log(userThree , "here the value will be overidden if not used 'new' in userOne , two and Three ")
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Call
+
+// function setUser(userName){
+//     this.userName = userName
+//     console.log("called")
+// }
+
+// function createUser(userName, email, password){
+//     // setUser(userName)
+//     setUser.call(this, userName)
+//     this.email= email
+//     this.password = password
+// }
+
+// const userOne = new createUser("zaid", "zaid@gmail.com", 1234)
+// console.log(userOne)
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
