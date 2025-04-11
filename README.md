@@ -67,7 +67,7 @@ This is a simple web-based Tic-Tac-Toe game created using HTML, CSS, and JavaScr
 - Draw detection.
 - Option to restart and play again.
 
-![I1](/pngs/correct_guess.png) ![I2](/pngs/WonReWrite.png) ![I3](/pngs/DRAW.png)
+![I2](/pngs/WonReWrite.png) ![I3](/pngs/DRAW.png) [I1](/pngs/Won.png) 
 
 ---
 
@@ -82,7 +82,7 @@ In this project, the computer generates a random number, and the player gets **1
 - If the correct number is guessed within 10 tries, the player wins!
 - If the player fails, the correct answer is revealed at the end.
 
-![I1](/pngs/key1.png) ![I2](/pngs/guess_low.png) 
+![I2](/pngs/guess_low.png) ![I2](/pngs/guess_high.png) 
 ![I3](/pngs/correct_guess.png) ![I4](/pngs/correct_guess2.png)
 
 
