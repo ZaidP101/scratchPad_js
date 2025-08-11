@@ -4,12 +4,17 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [color, setColor] = useState("red")
-
+  const [color, setColor] = useState("yellow")
+  let red = ()=>{
+    setColor("red");
+  }
   return (
 
     <div
     className='container' style={{backgroundColor:color}}>
+    
+    <button style={{backgroundColor:'red'}} onClick={red}>red</button>
+    <button style={{backgroundColor:'blue'}} onClick={()=>{setColor("blue")}}>blue</button>
     </div>
 
   )
