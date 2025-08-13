@@ -1,12 +1,27 @@
-# React + Vite
+# Currency Converter – React Learning Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React learning project** demonstrating how to:
 
-Currently, two official plugins are available:
+- Use **React Hooks** like `useState`, `useEffect`, and `useId`.
+- Create and use **custom hooks** (`useCurrencyInfo`) for fetching and managing API data.
+- Call **external APIs** to retrieve live currency exchange rates.
+- Pass props and handle events between parent and child components (`App` → `InputBox`).
+- Work with **state updates**, **form handling**, and **conditional rendering**.
+- Apply **Tailwind CSS** for styling and responsive layouts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- **Real-time currency conversion** using the [@fawazahmed0/currency-api](https://github.com/fawazahmed0/currency-api).
+- **Swap functionality** to quickly exchange "From" and "To" currencies.
+- **Reusable InputBox component** for amount and currency selection.
+- **Dynamic currency options** populated from API data.
+- **Custom Hook (`useCurrencyInfo`)** for clean data-fetching logic.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **React** – UI library
+- **Tailwind CSS** – Styling
+- **Custom Hooks** – Data fetching and state management
+- **JavaScript (ES6+)**
+- **Currency API** – Live exchange rate data
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+This project serves as a practical example of structuring React components, managing state, and integrating APIs while keeping the code modular and reusable.
